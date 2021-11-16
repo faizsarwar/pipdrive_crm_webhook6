@@ -92,7 +92,7 @@ async function create_deal(deal_tittle,personId,additional_data,productName){
         "title":deal_tittle,
         "person_id": personId,
         "value":additional_data['Finanzierungsbetrag'],
-        "stage_id":8, //ID 8
+        "stage_id":55, //ID 8
         "b5bdd440718ad2b741963b7adbcc68d48d3975d8":additional_data['Finanzierungsberatung angefragt?'],
         "d34eb5d97ee69f2956f71ba298ad5c5954878996":additional_data['Geplanter Haustyp'],
         "7c9d3ac4ab82abe99acaa0dcb20d4c71ca75116b":additional_data['Immobilienart'],
